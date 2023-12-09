@@ -1,0 +1,76 @@
+body{
+    margin: 15px;
+    font-family: EB Garamond,Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: #282d35;
+}
+
+main > p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-box{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.info-box{
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: left;
+}
+
+.profile-pic{
+    height: 150px;
+}
+
+.name{
+    margin-top: 0px;
+}
+
+.job-title{
+    margin-top: 0px;
+}
+
+nav > button{
+    margin: 2px;
+    color: antiquewhite;
+    background-color: blueviolet;
+}
+
+.email-image{
+    height: 15px;
+    margin-right: 2px;
+}
+
+.linkedin-image{
+    height: 15px;
+    margin-right: ;
+}
+
+.main-info{
+    color: white;
+}
+.main-info > h3{
+    color: black;
+}
+
+
+.footer{
+    display: flex;
+    /*flex */
+    justify-content: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    /*height of footer*/
+    height: 50px;
+    background-color: rgb(42, 42, 61);
+}
+
+.footer > img{
+    height: 30px;
+    margin: 10px;
+}
